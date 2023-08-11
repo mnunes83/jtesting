@@ -1,0 +1,11 @@
+
+[
+java:S5993	"9Change the visibility of this constructor to "protected".(ñÔ±‰øÿÿÿÿ8ÂŸ‹İ1
+U
+java:S1172	"3Remove this unused method parameter "clientSecret".(ñÔ±‰øÿÿÿÿ8ùÈ‹İ1
+I
+java:S1068",Remove this unused "endpoint" private field.(¬Í—Ü8Ï‡İ1
+I
+java:S1068",Remove this unused "clientId" private field.(ÙÌ¨8Ğ‡İ1
+I
+java:S1068",Remove this unused "resource" private field.(–âœ™8Ğ‡İ1

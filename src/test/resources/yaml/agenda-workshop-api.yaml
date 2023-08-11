@@ -1,0 +1,37 @@
+title: DMS - Dealer Management System
+description: DMS API
+host: https://agenda-gateway-dev.apps.pd01e.uscentral1.cf.gcp.ford.com/agenda-workshop/api
+security:
+  adfs:
+    url: https://corpqa.sts.ford.com/adfs/oauth2/token
+    clientId: ad9cdf61
+    clientSecret: vrZY2UphAy21d5
+    resource: urn:age:pcf:stf:dev
+  azure:
+    url: https://login.microsoftonline.com/azureford.onmicrosoft.com/oauth2/v2.0/token
+    clientId: e83ccd18-f41016b7e09e
+    clientSecret: i~V8Q~zvgw516a5dsasdas516516asd
+    scope: api://a30f9d1b-bd8/.default
+  web:
+    url: https://corpqa.sts.ford.com/adfs/oauth2/token
+    clientId: urn:age:pcf:native:dev
+    resource: urn:age:pcf:weblogin:dev
+    username: mnunes25@ford.com
+    password: test
+endpoint:
+  request:
+    url:  /schedulers/productives/list
+    method: get
+    description: A simple description about request
+    security: adfs
+    params:
+      type: queryString
+      countryCode: BRA
+      divisionCode: 1
+      advisorCode: 56007
+      schedule: "2023-10-10"
+      scheduleHour: 1000
+  response:
+    status: 200
+    contentType: json
+    body: "{'countryCode': 'BRA', 'divisionCode':1, 'dealerCode': 3028, 'advisorCode': 56770, 'schedule': '2023-10-10', 'scheduleHour': 1000}"

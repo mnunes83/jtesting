@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.mnunes.config.test.yaml.YamlTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2023-08-10T04:28:39" hostname="WGC107CWV30J3" time="0.112">
+  <properties/>
+  <testcase name="whenLoadFileNotFound_thenShouldThrowException()" classname="br.com.mnunes.config.test.yaml.YamlTest" time="0.018"/>
+  <testcase name="whenLoadYAMLDocument_thenLoadCorrectJavaObjectParameterConfig()" classname="br.com.mnunes.config.test.yaml.YamlTest" time="0.052"/>
+  <testcase name="whenLoadYAMLDocument_thenLoadCorrectJavaObjectSecurityDTO()" classname="br.com.mnunes.config.test.yaml.YamlTest" time="0.004"/>
+  <testcase name="whenLoadYAMLDocument_thenLoadCorrectJavaObjectAdfsSecurityConfig()" classname="br.com.mnunes.config.test.yaml.YamlTest" time="0.003"/>
+  <testcase name="whenLoadYAMLDocument_thenLoadCorrectJavaObjectAzureSecurityConfig()" classname="br.com.mnunes.config.test.yaml.YamlTest" time="0.003"/>
+  <testcase name="whenLoadYAMLDocument_thenLoadCorrectJavaObjectWebSecurityConfig()" classname="br.com.mnunes.config.test.yaml.YamlTest" time="0.004"/>
+  <testcase name="whenLoadYAMLDocument_thenLoadCorrectJavaObjectApiDTO()" classname="br.com.mnunes.config.test.yaml.YamlTest" time="0.003"/>
+  <testcase name="whenLoadYAMLDocument_thenLoadCorrectJavaObjectRequestConfig()" classname="br.com.mnunes.config.test.yaml.YamlTest" time="0.002"/>
+  <testcase name="whenLoadNullFile_thenShouldThrowException()" classname="br.com.mnunes.config.test.yaml.YamlTest" time="0.001"/>
+  <testcase name="whenLoadYAMLDocument_thenLoadCorrectJavaObjectEndpointConfig()" classname="br.com.mnunes.config.test.yaml.YamlTest" time="0.002"/>
+  <testcase name="whenLoadYAMLDocument_thenLoadCorrectJavaObjectResponseConfig()" classname="br.com.mnunes.config.test.yaml.YamlTest" time="0.016"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
